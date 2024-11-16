@@ -86,6 +86,8 @@ const Dashboard = () => {
           Task/Bug Dashboard
         </h1>
         <TaskForm addTask={addTask} />
+      </div>
+      <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-6 mt-3">
         <TaskFilters filters={filters} onFilterChange={handleFilterChange} />
         <TaskList
           tasks={filteredTasks}

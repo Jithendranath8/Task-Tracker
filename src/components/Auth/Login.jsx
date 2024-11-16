@@ -70,7 +70,7 @@ export function LoginForm() {
           </a>
         </p>
       </div>
-      <div className="absolute top-4 right-4 bg-white p-2 rounded-lg border">
+      <div className="absolute top-19 right-16 bg-white p-2 rounded-lg border">
         <h1 className="text-black text-2xl p-4">Test Credentials</h1>
         <p >Email :user@1234</p>
         <p>password:user1234</p>
